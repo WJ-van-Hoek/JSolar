@@ -5,12 +5,19 @@
 	<parent>
 		<groupId>com.general</groupId>
 		<artifactId>plugin-parent-pom</artifactId>
-		<version>0.0.4</version>
+		<version>0.0.5</version>
 	</parent>
 
 	<groupId>com.jsolar</groupId>
 	<artifactId>JSOLAR</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+
+	<modules>
+		<module>logic</module>
+		<module>plot</module>
+	</modules>
+
+	<packaging>pom</packaging>
 
 	<name>JSolar</name>
 
@@ -18,7 +25,7 @@
 		<java.version>17</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<parent-pom.version>0.2.11</parent-pom.version>
+		<parent-pom.version>0.2.14</parent-pom.version>
 	</properties>
 
 	<repositories>
