@@ -32,6 +32,10 @@
 
 	<repositories>
 		<repository>
+			<id>github-plugin-parent-pom</id>
+			<url>https://maven.pkg.github.com/WJ-van-Hoek/parent-pom</url>
+		</repository>	
+		<repository>
 			<id>github-parent-pom</id>
 			<url>https://maven.pkg.github.com/WJ-van-Hoek/parent-pom</url>
 		</repository>
